@@ -1,0 +1,17 @@
+/*   Footer Section  */
+#footer {
+  background-color: #2a2f4f;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .footer-text {
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    a{
+        color: #fff;
+    }
+  }
+}

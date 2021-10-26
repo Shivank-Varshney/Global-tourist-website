@@ -1,0 +1,146 @@
+/* Home Header Section */
+#home-header {
+  min-height: 100vh;
+  background-image: url(../assets/header-bg.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 20px 0 0 0;
+  .desc-section {
+    background-color: #fff;
+    .heading {
+      color: #345938;
+      font-size: 36px;
+      font-weight: bolder;
+      text-transform: uppercase;
+      text-align: center;
+      margin: 0 0 15px 0;
+      span {
+        color: #2a2f4f;
+      }
+    }
+    .text {
+      color: #2f2d2d;
+      font-size: 18px;
+      text-align: center;
+      font-weight: 600;
+    }
+    .know-more {
+      color: #000;
+      font-size: 12px;
+      text-align: center;
+      margin: 10px 0 30px 0;
+      font-weight: 600;
+    }
+    .social-icons {
+      display: flex;
+      justify-content: center;
+      .icon {
+        margin: 0 15px;
+        i {
+          font-size: 18px;
+          color: #385c3c;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+/*  Facility Section */
+#facility-section {
+  background-image: url(../assets/back.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 120vh;
+  display: flex;
+  align-items: center;
+  padding: 60px 0;
+  .desc-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .name {
+      color: #fff;
+      font-weight: bolder;
+      font-size: 24px;
+      text-align: center;
+      margin: 30px 0;
+      cursor: pointer;
+    }
+  }
+}
+
+/*  Order Section  */
+#offer {
+  padding: 80px 0;
+  background-image: url(../assets/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  .heading {
+    background-color: #000;
+    color: #fff;
+    font-size: 28px;
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 6px 30px;
+    border-radius: 8px;
+    margin: 0 0 80px 0;
+  }
+  i {
+    font-size: 72px;
+  }
+  .banner {
+    height: 400px;
+    background-color: #232323;
+    border-radius: 20px;
+  }
+}
+
+/* Subscribe Section */
+#subscribe-section {
+  background-color: #345938;
+  padding: 60px 0;
+  .heading {
+    color: #fff;
+    font-size: 42px;
+    text-align: center;
+    font-weight: bold;
+  }
+  .form {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0 0 0;
+    .form-control {
+      width: 320px;
+      box-shadow: none;
+      background-color: rgba(255, 255, 255, 0.2);
+      border: none;
+      color: #fff;
+      font-size: 16px;
+    }
+    .subscribeBtn {
+      background-color: #2a2e4f;
+      color: #fff;
+      font-weight: 600;
+      border: none;
+      font-size: 16px;
+      padding: 0 10px;
+    }
+  }
+  .dwnld-btn {
+    background-color: #fff;
+    color: #2a2f4f;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 8px 20px;
+    border-radius: 10px;
+    margin: 60px 0 0 0;
+    cursor: pointer;
+  }
+}
